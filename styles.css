@@ -1,0 +1,46 @@
+body {
+    font-family: Michroma, Courier, monospace;
+    background-color: #004953;
+}
+h1 {
+    color: ghostwhite;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    background-color: teal;
+    color: ghostwhite;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+table{
+  width: 100%;
+  border: 4px green solid;
+  border-collapse: collapse;
+  color: ghostwhite;
+}
+th, td{
+  border: 1px solid ghostwhite;
+  
+}
+
+th {
+  background-color: green;
+  color: ghostwhite;
+}
+
+tr:nth-child(even) {
+    background-color: #317873;
+}
+
+tr:hover {
+    background-color: ghostwhite;
+    color: teal;
+}
+
+footer {
+  float: bottom;
+  padding: 15px;
+}
